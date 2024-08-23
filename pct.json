@@ -1,0 +1,22 @@
+{
+  "PCT_Entries": [
+    {
+      "name": "CC00",
+      "group": "CCGRP",
+      "programName": "COSGN00C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CM00",
+      "group": "CMGRP",
+      "programName": "COMEN01C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CA00",
+      "group": "CAGRP",
+      "programName": "COADM01C",
+      "tranClass": "DFHTCL00"
+    }
+  ]
+}

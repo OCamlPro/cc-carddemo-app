@@ -1,0 +1,9 @@
+pct_files = ["pct.json"]
+fct_files = []
+program_folders = ["_build/cobol/modules"]
+map_folder = "_build/map"
+job = "CARDDEMO"
+
+[good_morning]
+prog = "COSGN00C"
+tranid = "CC00"
