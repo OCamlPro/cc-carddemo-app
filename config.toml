@@ -4,6 +4,10 @@ program_folders = ["_build/cobol/modules"]
 map_folder = "_build/map"
 job = "CARDDEMO"
 
+[files]
+data_path = "app/data/EBCDIC/"
+handler = "vsam"
+
 [good_morning]
 prog = "COSGN00C"
 tranid = "CC00"
