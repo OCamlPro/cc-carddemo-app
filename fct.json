@@ -1,0 +1,23 @@
+{"FCT_Entries": [
+  { "name":"USRSEC",
+    "group": "CARDDEMO",
+    "description":"List of users",
+    "fileNameOverride": "AWS.M2.CARDDEMO.USRSEC",
+    "pathExtension": "dat",
+    "format": "DEFAULT",
+    "recordMinLength": 80,
+    "recordMaxLength": 80,
+    "keyPosition": 1,
+    "keyLength": 8,
+    "useCatalog": false,
+    "ebcdicCollatingSequence": false,
+    "status": "ENABLED",
+    "readAccess": true,
+    "addAccess": true,
+    "browseAccess": true,
+    "deleteAccess": true,
+    "updateAccess": true,
+    "exclusiveAccess": true
+  }
+]
+}

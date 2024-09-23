@@ -1,5 +1,7 @@
 # SuperKIX for CardDemo
 
+The original README is [README.md](README.md).
+
 ## Server configuration
 
 For the server to work, some configurations needs to be done.
@@ -39,9 +41,9 @@ program_folders = ["_build/cobol/modules"]
 map_folder = "_build/map"
 job = "CARDDEMO"
 
-[vsam]
-vsam_path = "app/data/EBCDIC/"
-file_handler = "vsam"
+[files]
+data_path = "app/data/EBCDIC/"
+handler = "vsam"
 
 [good_morning]
 prog = "COSGN00C"
