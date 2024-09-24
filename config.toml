@@ -5,7 +5,7 @@ map_folder = "_build/map"
 job = "CARDDEMO"
 
 [files]
-data_path = "/home/engboris/aws-mainframe-modernization-carddemo/app/data/ASCII/"
+data_path = "app/data/ASCII/"
 handler = "vsam"
 
 [good_morning]

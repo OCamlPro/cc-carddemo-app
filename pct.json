@@ -2,20 +2,110 @@
   "PCT_Entries": [
     {
       "name": "CC00",
-      "group": "CCGRP",
+      "group": "CARDDEMO",
       "programName": "COSGN00C",
       "tranClass": "DFHTCL00"
     },
     {
       "name": "CM00",
-      "group": "CMGRP",
+      "group": "CARDDEMO",
       "programName": "COMEN01C",
       "tranClass": "DFHTCL00"
     },
     {
       "name": "CA00",
-      "group": "CAGRP",
+      "group": "CARDDEMO",
       "programName": "COADM01C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CAUP",
+      "group": "CARDDEMO",
+      "programName": "COACTUPC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CAVW",
+      "group": "CARDDEMO",
+      "programName": "COACTVWC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CB00",
+      "group": "CARDDEMO",
+      "programName": "COBIL00C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CCDL",
+      "group": "CARDDEMO",
+      "programName": "COCRDSLC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CCLI",
+      "group": "CARDDEMO",
+      "programName": "COCRDLIC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CCUP",
+      "group": "CARDDEMO",
+      "programName": "COCRDUPC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CDV1",
+      "group": "CARDDEMO",
+      "programName": "COCRDSEC",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CR00",
+      "group": "CARDDEMO",
+      "programName": "CORPT00C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CT00",
+      "group": "CARDDEMO",
+      "programName": "COTRN00C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CT01",
+      "group": "CARDDEMO",
+      "programName": "COTRN01C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CT02",
+      "group": "CARDDEMO",
+      "programName": "COTRN02C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CU00",
+      "group": "CARDDEMO",
+      "programName": "COUSR00C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CU01",
+      "group": "CARDDEMO",
+      "programName": "COUSR01C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CU02",
+      "group": "CARDDEMO",
+      "programName": "COUSR02C",
+      "tranClass": "DFHTCL00"
+    },
+    {
+      "name": "CU03",
+      "group": "CARDDEMO",
+      "programName": "COUSR03C",
       "tranClass": "DFHTCL00"
     }
   ]
