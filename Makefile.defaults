@@ -4,19 +4,16 @@ BUILD_DIR ?= _build
 
 # padbol / SuperKIX
 
-PADBOL ?= padbol
+PADBOL ?= superbol
 
 # Assumes `padbol`'s binary file is actually in its source directory
-SUPERKIX_LIB_DIR ?= \
-	$(dir $(shell readlink -f \
-		$(shell command -v $(PADBOL) 2>/dev/null)))superkix/target/debug
-
+SUPERKIX_LIB_DIR ?= /home/bas/superbol/lib
 # GixSQL
 
 GIXPP ?= gixpp
 
-GIXPP_COPYBOOKS_DIR ?= /usr/local/share/gixsql/copy
-GIX_LIB_DIR ?= /usr/local/lib
+GIXPP_COPYBOOKS_DIR ?= /home/bas/superbol/share/gixsql/copy
+GIX_LIB_DIR ?= /home/bas/superbol/lib
 
 # GnuCOBOL
 
