@@ -1,3 +1,4 @@
+# This a the CARDDEMO config
 pct_files = ["pct.json"]
 fct_files = ["fct.json"]
 program_folders = ["_build/cobol/modules"]
