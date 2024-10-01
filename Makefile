@@ -164,3 +164,5 @@ $(COPYBOOKS_DST_DIR)	\
 $(COPYBOOK_BMS_DST_DIR):
 	mkdir -p $@
 
+.PHONY: install
+
