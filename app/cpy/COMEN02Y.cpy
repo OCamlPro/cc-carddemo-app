@@ -36,7 +36,7 @@
 
            10 FILLER                       PIC 9(02) VALUE 3.
            10 FILLER                       PIC X(35) VALUE
-               'Credit Card Ltis                   '.
+               'Credit Card List                   '.
            10 FILLER                       PIC X(08) VALUE 'COCRDLIC'.
            10 FILLER                       PIC X(01) VALUE 'U'.
 
