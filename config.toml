@@ -5,7 +5,7 @@ map_folder = "_build/map"
 job = "CARDDEMO"
 
 [files]
-data_path = "app/data/ASCII/"
+data_path = "app/data/ASCII/vsam/"
 handler = "vsam"
 
 [good_morning]

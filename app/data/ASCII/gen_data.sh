@@ -3,10 +3,21 @@
 copybook=../../cpy/
 scripts=../../scripts/
 cobc=cobc
+file_handler=$1
+
+if [ -z "$1" ] ; then
+	echo "Error: first argument must be a file handler 'bdb' or 'vsam'."
+	exit 1
+fi
 
 gen_files () {
+	extension=""
+	if [ "$file_handler" = "bdb" ]; then
+		extension=".dat"
+	fi
+
 	# generate COBOL file generator program
-	ruby ${scripts}seq2cob.rb ${input} ${output} $progname $copybook $copyname $recordname $key $altkeys > ${progname}.cob
+	ruby ${scripts}seq2cob.rb ${input} ${file_handler}/$output$extension $progname $copybook $copyname $recordname $key $altkeys > ${progname}.cob
 
 	# compile, run and remove COBOL program
 	$cobc -x -I$copybook ${progname}.cob -o $progname
@@ -55,6 +66,26 @@ output=AWS.M2.CARDDEMO.TRANSACT
 key=TRAN-ID
 altkeys=[]
 copyname=CVTRA05Y
+gen_files
+gen_str
+echo "${progname} generated."
+
+progname=cardxref
+input=cardxref.txt
+output=AWS.M2.CARDDEMO.CARDXREF
+key=XREF-CARD-NUM
+altkeys=[XREF-ACCT-ID]
+copyname=CVACT03Y
+gen_files
+gen_str
+echo "${progname} generated."
+
+progname=custdata
+input=custdata.txt
+output=AWS.M2.CARDDEMO.CUSTDATA
+key=CUST-ID
+altkeys=[]
+copyname=CVCUS01Y
 gen_files
 gen_str
 echo "${progname} generated."

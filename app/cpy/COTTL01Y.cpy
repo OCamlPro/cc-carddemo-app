@@ -16,7 +16,7 @@
       ****************************************************************** 
        01 CCDA-SCREEN-TITLE.
          05 CCDA-TITLE01    PIC X(40) VALUE
-            '    OCP x CleverCloud Demonstration     '.
+            '      AWS Mainframe Modernization       '.
          05 CCDA-TITLE02    PIC X(40) VALUE
       *     '  Credit Card Demo Application (CCDA)   '.
             '              CardDemo                  '.
